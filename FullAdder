@@ -1,0 +1,21 @@
+FAST LIB:- It is a set of libraries which provides the cell models and components for high speed operations.
+Library (gpdk045wc):- specifies the library file and which is a generic physical design kit used with 45nm TSMC version.
+Which is a set of semiconductor process design kit which provided by cadence design system.
+These kits include various libraries and design systems.
+It gives the information about each cell function which is of power consumption, area and timing.
+unit attributes:- In this file we are reffering about full adder circuits.Below are some of the points which refer to that
+It will operate in the 1v,1ma and the time duration of 1ns.
+Default power supply voltage used is of 1.32v.
+Leakage power unwantes subthreshold current in the transistor channel when the transistor is turned off.
+Default its operating condition is of fast.
+Designing the adder circuit. That also includes the 7X7 matrix.
+Adder considered is "0" cell leakage power which is of 1.09891.
+Area required is of 0.0.
+Pins are of A,B,CI,CO.
+A & B are the input pins
+CI & CO are of sum and carry.
+The function for CO = (((AB)+(B CI)+(CI A))) this performs the carry function which is related to the pin A.
+Pin S is used for Sum function ((A^B)^CI).
+Here we can also get to know about the cell fall time, rise time, power consumption and direction.
+It performs separate operation for each function using basic gates (CLKAND, CLKXOR, CLKOR, CLKBUF, CLKINV, CLKMX).
+It even combines the design of Flipflop.
